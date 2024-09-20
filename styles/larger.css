@@ -1,0 +1,44 @@
+@media only screen and (min-width: 640px) {
+
+    html {
+        max-width: 900px;  
+        margin: 0 auto;         
+        box-sizing: border-box;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main h1 {
+        font-size: 32px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 18px;
+        align-items: stretch;
+        
+        
+    }
+
+    .parent section {
+        box-shadow: 6px 6px 6px black;
+
+    }   
+
+    .card h2 {
+        text-align: center;            
+        background-color: #415541;      
+        color: white;                   
+        padding: 1rem;                
+        margin: 0;                      
+        width: 100%;                
+        
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}
