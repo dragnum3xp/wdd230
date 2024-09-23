@@ -6,7 +6,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr;  /* Two equal columns */
-        grid-template-rows: 1fr;  /* One row */
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr;  
     }
 }
