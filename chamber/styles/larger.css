@@ -1,10 +1,55 @@
 
 @media only screen and (min-width: 640px) {
 
+    body {
+        background-color: #baefa5;
+    }
 
     nav ul li {
     display: inline;
     margin: 10px 50px;
+    border-style: none;
     
-}
+    }
+    span a {
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        font-size: larger;
+        font-style: oblique;
+        color: #fff;
+        text-decoration: none;
+        background-color: #477933;
+        margin-left:43%;
+        margin-right: 43%;
+        border-radius: 10px;
+    }
+
+    .card {
+        display: flex; 
+        background-color: #63A549;
+        margin: 1rem;
+        padding: 15px;
+        border-radius: 10px;
+        align-items: center; 
+    }
+    
+    .card img {
+        width: 40%; 
+        border-radius: 10px; 
+        margin-right: 1rem; 
+    }
+    
+    .card h3,
+    .card p {
+        margin: 0; 
+        text-align: start;
+    }
+    
+    .card-content {
+        width: 60%; 
+        padding: 0; 
+    }
+
+    
 }
