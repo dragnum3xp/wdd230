@@ -5,9 +5,38 @@
         margin: 0 auto;         
         box-sizing: border-box;
     }
-    nav ul {
-        display: flex;
+
+    .navigation {
+        list-style: none;
+        margin: 0 auto;
+    }
+
+    .navigation ul {
+        display:flex;
         justify-content: space-around;
+        
+    }
+
+   .navigation a {
+    display: block;
+    padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	transition: none;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+   }
+
+    #menu {
+        display: none;
+    }
+
+    nav li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        
+        
     }
 
     main h1 {
