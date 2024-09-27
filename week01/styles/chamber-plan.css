@@ -14,7 +14,7 @@ header, main, footer {
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: 1rem;
-    background-color: #477933;
+    background-color: #2f4724;
     color: #eee;
     
 }
@@ -37,13 +37,14 @@ ul {
     display: flex;
     flex-direction: column; 
     align-items: center;   
-    margin: 1rem 0;         
+    margin: 1rem 0;   
+         
 }
 
 #wireframe a {
     display: block;         
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: #eee;
     text-align: center;
 }
 
