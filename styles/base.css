@@ -150,7 +150,7 @@ footer {
 }
 
 #mode {
-	top: 1rem;
+	bottom: 1rem;
 	right: 1.8rem;
 	font-size: 3rem;
 	cursor: pointer;
