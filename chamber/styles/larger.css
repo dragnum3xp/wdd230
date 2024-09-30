@@ -11,7 +11,47 @@
     border-style: none;
     
     }
-    span a {
+
+    .navigation {
+        list-style: none;
+        margin: 0 auto;
+        background-color: #477933;
+    }
+
+    .navigation ul {
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+
+   .navigation a {
+    display: block;
+    padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	transition: none;
+	font-size: larger;
+   }
+
+    #menu {
+        display: none;
+    }
+
+    nav li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        
+        
+    }
+
+   }
+
+    
+    
+    .join {
         display: flex;
         justify-content: center;
         margin: 5%;
@@ -20,8 +60,8 @@
         color: #fff;
         text-decoration: none;
         background-color: #477933;
-        margin-left:43%;
-        margin-right: 43%;
+        margin-left:45%;
+        margin-right: 45%;
         border-radius: 10px;
     }
 
@@ -52,4 +92,3 @@
     }
 
     
-}
