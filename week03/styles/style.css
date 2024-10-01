@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+main img {
+    display: block;
+    align-items: center;
+    padding: 1rem;
+    background: #000;
+    animation: fade 15s;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
