@@ -39,6 +39,22 @@
         
     }
 
+    .herolabel {
+        position: absolute;
+        width: 50%;
+        top: 15%;
+        left: 20%;
+        background: radial-gradient(#fff, #4D5B97);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        
+    }
+    .herolabel p {
+        text-align: center;
+    }
+
     main h1 {
         font-size: 32px;
     }
@@ -69,5 +85,10 @@
 
     .card p {
         font-size: 16px;
+    }
+
+    iframe {
+        width: 900px;
+        height: 675px;
     }
 }

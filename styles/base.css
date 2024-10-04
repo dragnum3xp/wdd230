@@ -100,6 +100,30 @@ main {
     background-color: #eee;
 }
 
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	
+}
+
 h1 {
     padding: 1rem;
     font-size: 36px;
@@ -121,7 +145,7 @@ h1 {
 }
 
 .card h2 {
-    background-color: #0f290f;
+    background-color: #415541;
     text-align: center;
     color: white;
     padding: 1rem;
@@ -136,6 +160,23 @@ h1 {
 
 .card ul {
     list-style-type: none;
+}
+
+.label {
+    text-align: center; /* Center the text inside the label */
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.visits {
+    display: block;
+    text-align: center;
+    font-size: large;
+}
+
+iframe {
+    width: 420px;
+    height: 315px;
 }
 
 footer {
