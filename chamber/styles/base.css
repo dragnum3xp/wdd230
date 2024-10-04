@@ -36,9 +36,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); 
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    text-align: center;
 }
 
 .show li {
@@ -84,8 +85,10 @@ nav {
 nav ul {
     list-style: none;
     padding: 10px 0;
-    background-color: #375e27;
+    background-color: #baefa5;
 }
+
+
 
 nav ul li {
     display: block;
@@ -125,6 +128,25 @@ nav ul li a:hover {
 main {
     padding: 1rem;
 }
+
+/* discovery page */
+
+.side-content {
+    padding: 1rem;
+    background-color: aliceblue;
+    margin: 10px;
+    border-style: groove;
+    border-color: #baefa5; 
+    text-align: center;
+}
+
+
+.side-content iframe {
+    width: 100%;             
+    height: auto;           
+    max-width: 100%;          
+}
+
 
 .card {
     background-color: #63A549;

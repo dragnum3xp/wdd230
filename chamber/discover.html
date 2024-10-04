@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="A site plan for a Chamber commerce">
+    <meta name="author" content="Filipe do Nascimento Souza">
+    <meta property="og:url" content="https://dragnum3xp.github.io/wdd230/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home page for wdd230 activities" />
+    <meta property="og:description" content="Home page for working in course wdd230" />
+    <meta property="og:image" content="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/01201469_4i1h6b5b8a.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div id="hero-img">
+            <img src="images/Beach-Park-no-Ceara-800x599.webp" alt="dunes"> <!--Find Image later-->
+            <h1>Aquiraz <br> Chamber of Commerce</h1>
+        </div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Director</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main id="content">
+       <div id="sidebar">
+            <section class="side-content">
+                <h2>Event</h2>
+                <source srcset="" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="#" alt="Placeholder" width="#" height="#"> 
+            </section>
+            <section class="side-content">
+                <h2>Article</h2>
+                <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, corrupti aliquam sint sed repudiandae voluptatum est eos consequuntur, nulla molestiae voluptate placeat, vero ab dolorum veniam inventore laudantium rerum voluptas.</article>
+            </section>
+            <section class="side-content">
+                <h2>Article</h2>
+                <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, corrupti aliquam sint sed repudiandae voluptatum est eos consequuntur, nulla molestiae voluptate placeat, vero ab dolorum veniam inventore laudantium rerum voluptas.</article>
+            </section>
+            <section class="side-content">
+                <h2>Calendar</h2>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FSao_Paulo&bgcolor=%23ffffff&showTitle=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0&showTz=0&showDate=0&src=YjE1OGNjYmFjYjY1NzU3MmE5OGRlMjFlNDA5MDkxMzUwMjBjNjE4MjVhNzliMmY1ZjM5MTBkYTE3ZjU3NzUwN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441" style="border:solid 1px #777"frameborder="0" scrolling="no"
+                loading="lazy"></iframe>
+            </section>
+       </div>
+       <div class="discover-images">
+            <picture>       
+                <source srcset="images/Aquiraz-praia-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/Aquiraz-praia.webp" alt="Beach" width="1200px" height="600px">
+            </picture> 
+            <picture> 
+                <source srcset="images/artesanato-Aquiraz-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/artesanato-Aquiraz.webp" alt="Artesanato" width="#" height="#">
+            </picture>
+            <picture>
+                <source srcset="images/atração-Aquiraz-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/atração-Aquiraz.webp" alt="Attraction" width="#" height="#">
+            </picture>
+            <picture>
+                <source srcset="images/Beach-park-Aquiraz-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/Beach-park-Aquiraz.webp" alt="Beach-Park" width="#" height="#">
+            </picture>
+            <picture>
+                <source srcset="images/historia-Aquiraz-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/historia-Aquiraz.webp" alt="History" width="#" height="#">
+            </picture>
+            <picture>
+                <source srcset="images/landscape-Aquiraz-small.webp" media="(max-width: 500px)">
+                <source srcset="" media="(max-width: 1000px)">
+                <img src="images/landscape-Aquiraz.webp" alt="Landscape" width="#" height="#">
+            </picture>
+       </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Whatsapp</a></li>
+        </ul>
+        <p>
+            WDD-230 <span id="year"></span>
+            Filipe do Nascimento Souza, Brazil
+            <br> Phone: (+55)011933732242
+            <br> Email: filipesouza074@outlook.com
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/ham.js"></script>
+</body>
+</html>
