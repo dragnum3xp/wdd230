@@ -112,15 +112,7 @@
         grid-column: 2;
     }
 
-    .discover-images img {
-        width: 100%; 
-        height: auto; 
-        display: block;
-        margin-bottom: 1rem; 
-        border-style: groove;
-        border-color: #63A549;
-    }
-
+    
     
 
 }

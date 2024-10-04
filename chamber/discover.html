@@ -36,7 +36,12 @@
         </ul>
     </nav>
     <main id="content">
-       <div id="sidebar">
+        <div id="sidebar">
+            <section class="side-content">
+                <h2>Last Visit</h2>
+                <p id="lastVisitDate">You last visited on: <span id="displayDate">Never</span></p>
+                <p id="displayMessage"></p>
+            </section>
             <section class="side-content">
                 <h2>Event</h2>
                 <source srcset="" media="(max-width: 500px)">
@@ -56,39 +61,62 @@
                 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FSao_Paulo&bgcolor=%23ffffff&showTitle=0&showNav=0&showCalendars=0&showTabs=0&showPrint=0&showTz=0&showDate=0&src=YjE1OGNjYmFjYjY1NzU3MmE5OGRlMjFlNDA5MDkxMzUwMjBjNjE4MjVhNzliMmY1ZjM5MTBkYTE3ZjU3NzUwN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441" style="border:solid 1px #777"frameborder="0" scrolling="no"
                 loading="lazy"></iframe>
             </section>
-       </div>
-       <div class="discover-images">
-            <picture>       
-                <source srcset="images/Aquiraz-praia-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/Aquiraz-praia.webp" alt="Beach" width="1200px" height="600px">
-            </picture> 
-            <picture> 
-                <source srcset="images/artesanato-Aquiraz-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/artesanato-Aquiraz.webp" alt="Artesanato" width="#" height="#">
-            </picture>
-            <picture>
-                <source srcset="images/atração-Aquiraz-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/atração-Aquiraz.webp" alt="Attraction" width="#" height="#">
-            </picture>
-            <picture>
-                <source srcset="images/Beach-park-Aquiraz-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/Beach-park-Aquiraz.webp" alt="Beach-Park" width="#" height="#">
-            </picture>
-            <picture>
-                <source srcset="images/historia-Aquiraz-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/historia-Aquiraz.webp" alt="History" width="#" height="#">
-            </picture>
-            <picture>
-                <source srcset="images/landscape-Aquiraz-small.webp" media="(max-width: 500px)">
-                <source srcset="" media="(max-width: 1000px)">
-                <img src="images/landscape-Aquiraz.webp" alt="Landscape" width="#" height="#">
-            </picture>
-       </div>
+        </div>
+        <div class="discover-images">
+            <figure>
+                <picture>
+                    <source srcset="images/Aquiraz-praia-small.webp" media="(max-width: 500px)">
+                    <source srcset="" media="(max-width: 1000px)">
+                    <img src="images/Aquiraz-praia.webp" alt="Beach" loading="lazy">
+                </picture>
+                <figcaption>Dunes</figcaption>
+            </figure>
+
+            <figure>
+                <picture>
+                    <source srcset="images/artesanato-Aquiraz-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/artesanato-Aquiraz.webp" media="(max-width: 1000px)">
+                    <img src="images/artesanato-Aquiraz.webp" alt="Artesanato" loading="lazy">
+                </picture>
+                <figcaption>Craftsmanship</figcaption>
+            </figure>
+            
+            <figure>
+                <picture>
+                    <source srcset="images/atração-Aquiraz-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/atração-Aquiraz.webp" media="(max-width: 1000px)">
+                    <img src="images/atração-Aquiraz.webp" alt="Attraction" loading="lazy">
+                </picture>
+                <figcaption>Family Activities</figcaption>
+            </figure>
+            
+            <figure>
+                <picture>
+                    <source srcset="images/Beach-park-Aquiraz-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/Beach-park-Aquiraz.webp" media="(max-width: 1000px)">
+                    <img src="images/Beach-park-Aquiraz.webp" alt="Beach-Park" loading="lazy">
+                </picture>
+                <figcaption>Park</figcaption>
+            </figure>
+            
+            <figure>
+                <picture>
+                    <source srcset="images/historia-Aquiraz-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/historia-Aquiraz.webp" media="(max-width: 1000px)">
+                    <img src="images/historia-Aquiraz.webp" alt="History" loading="lazy">
+                </picture>
+                <figcaption>History</figcaption>
+            </figure>
+            
+            <figure>
+                <picture>
+                    <source srcset="images/landscape-Aquiraz-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/landscape-Aquiraz.webp" media="(max-width: 1000px)">
+                    <img src="images/landscape-Aquiraz.webp" alt="Landscape" width="#" height="#">
+                </picture>
+                <figcaption>Beauty</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <ul>
