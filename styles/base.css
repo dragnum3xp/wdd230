@@ -163,7 +163,7 @@ h1 {
 }
 
 .label {
-    text-align: center; /* Center the text inside the label */
+    text-align: center; 
     display: block;
     margin-bottom: 1rem;
 }
