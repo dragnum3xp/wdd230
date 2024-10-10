@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="A site plan for a Chamber commerce">
+    <meta name="author" content="Filipe do Nascimento Souza">
+    <meta property="og:url" content="https://dragnum3xp.github.io/wdd230/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home page for wdd230 activities" />
+    <meta property="og:description" content="Home page for working in course wdd230" />
+    <meta property="og:image" content="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/01201469_4i1h6b5b8a.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div id="hero-img">
+            <img src="images/Beach-Park-no-Ceara-800x599.webp" alt="dunes"> <!--Find Image later-->
+            <h1>Aquiraz <br> Chamber of Commerce</h1>
+        </div>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Director</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="thankyou.html" class="aq1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First name* <input type="text" name="fname" required id="fname">
+                </label>
+                <label>Last name* <input type="text" name="lname" required id="lname">
+                </label>
+                <label>Title or Position <input type="text" name="title" pattern="[A-Za-z\s\-]+{7,}" id="position"></label>
+                <label>Email<input type="email" name="email" placeholder="myemail@email.com" required id="email"></label>
+                <label>Mobile Phone <input type="tel" name="phone" required id="phone"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Bussiness Information</legend>
+                <label>Bussiness name<input type="text" name="bussiness" id="bname"></label>
+                <label>Bussiness description</label>
+                <textarea name="description" id="desc" rows="5" cols="30"></textarea>
+                
+                <label>Membership level
+                    <select name="subject">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="NP">NP Membership(for non profit organizations)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </label>
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+            </fieldset>
+
+            <input type="submit" value="Join">
+
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Whatsapp</a></li>
+        </ul>
+        <p>
+            WDD-230 <span id="year"></span>
+            Filipe do Nascimento Souza, Brazil
+            <br> Phone: (+55)011933732242
+            <br> Email: filipesouza074@outlook.com
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/ham.js"></script>
+</body>
+</html>
