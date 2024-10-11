@@ -113,7 +113,58 @@
     }
 
     
+    /* Styles for JOIN PAGE */
+
+    .form-and-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+    }
     
+    .aq1 {
+        flex: 1;
+        margin-right: 10px;
+        max-width: 30%;
+    
+    }
+
+    .membership-info {
+        flex: 2;
+        max-width: 30%;
+        padding-top: 2.2rem;
+    }
+
+
+    .memberCard {
+        padding-bottom: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .memberCard h3 {
+        font-size: 22px;
+    }
+
+    .memberCard p {
+        text-align: center;
+    }
+
+    .memberCard ol {
+        text-align: center;
+        list-style: none;
+        text-decoration: underline;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+    }
+
+    .aq1 input[type="submit"]{
+        width: 30%;
+    }
 
 }
-    
+

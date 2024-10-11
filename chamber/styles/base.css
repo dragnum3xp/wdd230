@@ -309,6 +309,13 @@ h2 {
     font-weight: 900;
 }
 
+/* Thankyou PAGE */
+
+.thanks {
+    margin: 0 auto;
+    text-align: center;
+}
+
 footer {
     background-color: #63A549;
     text-align: center;
