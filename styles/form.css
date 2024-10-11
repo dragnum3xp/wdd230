@@ -1,0 +1,48 @@
+:root {
+    --back: rgba(255, 255, 255, 0.5);
+    --margin: 1px;
+    --fontz: 1.2rem;
+
+}
+
+.hf1 fieldset {
+    margin: 2rem 0;
+    border: 2px solid var(--back);
+    border-radius: 10px;
+    padding: .5rem 5%;
+}
+
+.hf1 legend {
+    font-size: var(--fontz);
+    font-weight: 20px;
+}
+
+.hf1 label {
+    display: block;
+    padding-top: 1rem;
+
+}
+
+.hf1 div {
+    padding: 0.5rem;
+    color: #105f14;
+    font-size: 1.3rem;
+}
+
+.hf1 input[type="text"],
+.hf1 input[type="password"],
+.hf1 input[type="email"],
+.hf1 input[type="range"] {
+    display: block;
+    border-radius: 2%;
+    width: 100%;
+    max-width: 200px;
+}
+
+.hf1 input[type="submit"]{
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 6px;
+    padding: .8rem;
+}

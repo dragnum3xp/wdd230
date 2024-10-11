@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Filipe do Nascimento Souza, WDD 230">
+    <meta name="author" content="Filipe do Nascimento Souza">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:url" content="https://dragnum3xp.github.io/wdd230/" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Home page for wdd230 activities" />
+    <meta property="og:description" content="Home page for working in course wdd230" />
+    <meta property="og:image" content="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/01201469_4i1h6b5b8a.jpeg" /> 
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    
+    
+    <title>Filipe do Nascimento Souza - WDD 230 - Web Frontend Development</title>
+</head>
+<body>
+    
+    <header>
+        <img src="images/filipe.jpg" alt="Filipe do Nascimento" width="80" height="100">
+        <span>Filipe N. Souza</span>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav class="navigation">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site-plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>    
+    </nav>
+    <div id="mode">
+        🕶️
+    </div>
+    <h1>WDD 230: Web Frontend Development</h1>
+    <main>
+        <h1>Form Demonstration</h1>
+        <div id="formmessage"></div>
+        <form method="get" action="record.html" class="hf1">
+            <fieldset>
+                <legend>User information</legend>
+                <label>Username* <input type="text" name="fname" required id="username">
+                </label>
+                <label>Password* <input type="password" name="password" required pattern="[a-zA-z0-9]{8,}" id="passw">
+                </label>
+                <label>Re-enter Password* <input type="password" name="password" required pattern="[a-zA-z0-9]{8,}" id="passw2">
+                </label>
+                <label>Email <input type="email" name="email" placeholder="myemail@byu.edu" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Plaease enter a valid email address" id="email">
+                </label>
+                <label for="r">Page Rating 
+                </label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="rating" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+	                <option value="0">0</option>
+	                <option value="1">1</option>
+	                <option value="2">2</option>
+	                <option value="3">3</option>
+	                <option value="4">4</option>
+	                <option value="6">6</option>
+	                <option value="7">7</option>
+	                <option value="8">8</option>
+	                <option value="9">9</option>
+	                <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Rate the site">
+    </main>
+    <footer>
+        <p>
+            ©<span id="year"></span>
+            Filipe do Nascimento Souza, Brazil
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
