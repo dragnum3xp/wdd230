@@ -231,6 +231,84 @@ figcaption {
 
 }
 
+/* Join Page */
+
+.aq1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #0a530e;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #adf392;
+}
+
+.aq1 legend {
+    font-size: large;
+    color: #031d04;
+}
+
+.aq1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #031d04;
+    font-size: 1rem;
+}
+
+.aq1 input[type="text"],
+.aq1 input[type="email"],
+.aq1 input[type="tel"],
+.aq1 textarea,
+.aq1 select
+{
+    display: block;
+    background-color: #eee;border: solid 1px #999;
+    border-radius: 6px;
+    padding: .85rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.aq1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(#146b0e, #11580c);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #013107;
+}
+
+h2 {
+    text-align: center;
+}
+
+.memberCard {
+    padding: 1rem;
+    margin: 10px auto;
+    background-color: #adf392;
+    border: 1px solid #0a530e;
+    border-radius: 10px;
+
+}
+
+.memberCard h3 {
+    text-align: center;
+    padding-bottom: 0.7rem;
+}
+
+.memberCard p {
+    width: 98%;
+}
+
+.memberCard ol {
+    list-style: circle;
+    padding: 0.9rem;
+    font-weight: 900;
+}
+
 footer {
     background-color: #63A549;
     text-align: center;

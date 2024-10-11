@@ -36,23 +36,23 @@
         </ul>
     </nav>
     <main>
-        <form method="get" action="thankyou.html" class="aq1">
+        <form method="get" action="./thankyou.html" class="aq1">
             <fieldset>
-                <legend>Applicant Information</legend>
+                <legend><b>Applicant Information</b></legend>
                 <label>First name* <input type="text" name="fname" required id="fname">
                 </label>
                 <label>Last name* <input type="text" name="lname" required id="lname">
                 </label>
-                <label>Title or Position <input type="text" name="title" pattern="[A-Za-z\s\-]+{7,}" id="position"></label>
+                <label>Title or Position <input type="text" name="title" pattern="[A-Za-z\s\-]{7,}" id="position"></label>
                 <label>Email<input type="email" name="email" placeholder="myemail@email.com" required id="email"></label>
                 <label>Mobile Phone <input type="tel" name="phone" required id="phone"></label>
             </fieldset>
 
             <fieldset>
                 <legend>Bussiness Information</legend>
-                <label>Bussiness name<input type="text" name="bussiness" id="bname"></label>
+                <label>Bussiness name<input type="text" name="bussiness"  required id="bname"></label>
                 <label>Bussiness description</label>
-                <textarea name="description" id="desc" rows="5" cols="30"></textarea>
+                <textarea name="description" id="desc" rows="5" cols="25"></textarea>
                 
                 <label>Membership level
                     <select name="subject">
@@ -68,6 +68,36 @@
             <input type="submit" value="Join">
 
         </form>
+        <h2>Membership description</h2>
+        <section class="memberCard">
+            <h3>Bronze membership</h3>
+            <p>Bronze is the standard level of membership and allows your company to access our standard benefits:</p>
+            <ol class="benelist">
+                <li>24/7 support</li>
+                <li>Colaboration in all events</li>
+                <li>Local advertisement</li>
+            </ol>
+        </section>
+        <section class="memberCard">
+            <h3>Silver membership</h3>
+            <p>Silver is a high level of membership and allows your company to access all bronze membership benefits as well as additional benefits:</p>
+            <ol class="benelist">
+                <li>Employee training and development</li>
+                <li>2 days in the calendary for special events</li>
+                <li>Advertisement on our home page</li>
+            </ol>
+        </section>
+        <section class="memberCard">
+            <h3>Golden membership</h3>
+            <p>Golden is the premium level of membership and allows your company to access all bronze and silver membership benefits as well as special benefits:</p>
+            <ol class="benelist">
+                <li>Advertisement across all our plataforms</li>
+                <li>Discounts in our oficial stores </li>
+                <li>free cleaning once a week</li>
+                <li>company aniversary gifts</li>
+                <li>Private parking</li>
+            </ol>
+        </section>
     </main>
     <footer>
         <ul>
