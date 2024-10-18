@@ -1,0 +1,86 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/dragnum3xp/pen/vYoYJeG?editors=0110",
+            "title": "Hamburguer"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/landscape.webp",
+            "title": "Landscape"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazyload"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "https://codepen.io/dragnum3xp/pen/zYgKyJv",
+            "title": "Css Pseudo-classes"
+          },
+          {
+            "url": "week04/images/screenshot-activity.png",
+            "title": "Combinators"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Tables"
+          },
+          {
+            "url": "week04/forms/Form-start/index.html",
+            "title": "Forms"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/dragnum3xp/pen/ExqWoPp",
+            "title": "Css Pseudo-elements"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "Json"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "Fetch Data"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Weather"
+          }
+        ]
+      }
+    ]
+}
+

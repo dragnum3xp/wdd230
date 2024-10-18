@@ -87,13 +87,20 @@
             <section class="card">
                 <h2>Information</h2>
                 <p>São Paulo, Brasil</p>
-                <p id="wheater"></p> <!-- For future functionality -->
-                <p id="pvisit"></p>
             </section>
         </div>
-        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <div class="weather-card">
+            <h2>Information</h2>
+            <p><span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </div>
     </main>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.59756062295!2d-46.57589335932576!3d-23.438900457194222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef44777d7097b%3A0x2926fe412a99ac1b!2sR.%20do%20Ouro%2C%2028%20-%20Tres%20Cruzes%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002327-010!5e0!3m2!1sen!2sbr!4v1728006256310!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
     <footer>
         <p>
             ©<span id="year"></span>
@@ -102,6 +109,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/dark.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburguer.js"></script>
     <script src="scripts/displayVisits.js"></script>
