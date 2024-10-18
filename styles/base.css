@@ -141,7 +141,7 @@ h1 {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    list-style-type: none;
+    
 }
 
 .card h2 {
@@ -151,6 +151,7 @@ h1 {
     padding: 1rem;
     margin: 0;
     border-radius: 10px 10px 0 0;
+    
 
 }
 
@@ -191,7 +192,7 @@ footer {
 }
 
 #mode {
-	bottom: 1rem;
+	
 	right: 1.8rem;
 	font-size: 3rem;
 	cursor: pointer;
@@ -201,33 +202,20 @@ footer {
 
 /* FOR THE WEATHER */
 
-.weather-card {
-    display: block;
-    border: 1px solid gray;
-    background-color: aliceblue;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30%;
-    margin-left: 30%;
-    
-}
-
-.weather-card h2 {
-    font-size: 2rem;
-    margin: 0;
-    background-color: #0f290f;
-    color: #eee;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding-bottom: 10px;
-}
 
 #current-temp{
+    display: flex;
     text-transform: capitalize;
     color: #0f290f;
     margin: 0;
     font-size: 1.5rem;
+    justify-content: center;
+    
+}
+
+#weather-icon, figcaption {
+    display: flex;
+    justify-content: center;
+    
 }
 
