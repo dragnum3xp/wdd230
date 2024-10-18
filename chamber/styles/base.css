@@ -342,3 +342,79 @@ footer a {
     text-decoration:none;
     color: #000;
 }
+
+/* Directory Page */
+#directory {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	background-color: #baefa5;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;  
+    align-items: stretch; 
+    justify-content: center; 
+    padding: 20px;  
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.grid section {
+    background-color: #9bcd87;
+    padding: 20px; 
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.grid section p {
+    margin-bottom: 10px;
+}
+
+.grid section:nth-child(4) img {
+    margin-bottom: 32px;
+}
+
+.list {
+    display: flex; /* Use flex to create a vertical stack */
+    flex-direction: column; /* Ensure items stack vertically */
+}
+
+.list #cards {
+    display: block;
+}
+
+
+.list section {
+    margin: 1rem 0; 
+    padding: 20px; 
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+	background-color: #9bcd87;
+}
+.list section:nth-child(odd) {
+    background-color: #bbe9a8;
+}

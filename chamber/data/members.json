@@ -3,7 +3,7 @@
     {
         "1": {
             "name": "Nutella",
-            "address": "35324 MacGyver Village, LA 54468",
+            "address": "Level 36, 100 Miller Street, North Sydney NSW 2060",
             "phone": "(002) 334-5432",
             "url": "https://www.nutella.com/int/en/",
             "icon": "images/icons/nutella.png",
@@ -11,47 +11,47 @@
         },
         "2": {
             "name": "Twitch",
-            "address": "790 Purdy Harbor, Lake Irmgardfort",
+            "address": "350 Bush Street, 2nd Floor, San Francisco, CA 94104",
             "phone": "(992) 284-0435",
             "url": "https://www.twitch.tv/",
             "icon": "images/icons/twitch.png",
             "membership": "Bronze"
         },
         "3": {
-            "name": "Adidas",
-            "address": "Suite 448 2316 Jerry Shore, Nealburgh",
+            "name": "Kia",
+            "address": "Theodor-Heuss-Allee 11 60486 Frankfurt, Germany",
             "phone": "(012) 534-6472",
             "url": "https://www.adidas.com/us",
-            "icon": "images/icons/adidas.png",
+            "icon": "images/icons/kia.png",
             "membership": "Gold"
         },
         "4": {
             "name": "Puma",
-            "address": "92420 Calvin Divide, Jeannefort",
+            "address": "91074 Herzogenaurach, GERMANY",
             "phone": "(302) 135-3272",
-            "url": "https://us.puma.com/us/en?srsltid=AfmBOore_swuE6_kAQg35jyQWvTm_8sHUa7aYqrOMQfU7ljrTRPVm728",
+            "url": "https://us.puma.com/us/en",
             "icon": "images/icons/puma.png",
             "membership": "Silver"
         },
         "5": {
             "name": "Volkswagen",
-            "address": "Suite 868 885 Pfannerstill Summit, Tonyland",
+            "address": "Berliner Ring 2, 38440 Wolfsburg",
             "phone": "(212) 384-5411",
             "url": "https://www.vw.com/en.html",
             "icon": "images/icons/volkswagen.png",
             "membership": "Gold"
         },
         "6": {
-            "name": "Dell",
-            "address": "6507 Rolando Extension, West Novaton",
+            "name": "Fiat",
+            "address": " FCA US LLC P.O. Box 21-8007 Auburn Hills, MI 48321-8007",
             "phone": "(016) 184-5231",
-            "url": "https://www.dell.com/en-us",
-            "icon": "images/icons/dell.png",
+            "url": "https://www.fiat.com/",
+            "icon": "images/icons/fiat.png",
             "membership": "Silver"
         },
         "7": {
             "name": "Citroen",
-            "address": "211 Beer Cape, Kingburgh",
+            "address": "Pinley House, 2 Sunbeam Way Coventry CV3 1ND",
             "phone": "(112) 034-5022",
             "url": "https://www.citroen-eg.com/en/",
             "icon": "images/icons/citroen.png",

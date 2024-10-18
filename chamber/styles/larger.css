@@ -166,5 +166,32 @@
         width: 30%;
     }
 
+    /* directory page */
+    .list {
+        display: flex; /* Keep .list as a flex container for vertical stacking */
+        flex-direction: column; /* Stack items vertically */
+        padding: 0; /* Remove default padding if any */
+    }
+
+    .list section {
+        display: grid; /* Use grid for each section */
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Each section can have a variable number of items */
+        gap: 1rem; /* Space between items in each section */
+        border-radius: 10px; 
+        background-color: #9bcd87; /* Optional: Add background for visibility */
+        padding: 1rem; /* Optional: Padding inside each section */
+        margin: 1rem 0; /* Space between sections */
+    }
+
+    .list section p {
+        margin: 0; /* Remove default margin from paragraphs */
+        padding: 0.5rem; /* Space around text */
+        display: inline; /* Make paragraphs display inline */
+    }
 }
+
+
+
+
+
 
