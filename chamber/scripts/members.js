@@ -12,22 +12,29 @@ async function getMemberData() {
 getMemberData();
 
 const displayMembers = (companies) => {
-    companies.forEach((company) => {
+    Object.keys(companies).forEach((key) => {
+        let company = companies[key];
         let card = document.createElement("section");
-        let fullName = document.createElement("h2");
+
         let logo = document.createElement("img");
-        let address
+        let address = document.createElement("p")
+        let phone = document.createElement("p")
+        let site = document.createElement("a")
 
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+        logo.setAttribute("src", company.icon)
+        logo.setAttribute("alt", company.name)
+        logo.setAttribute("loading", "lazy")
+        logo.setAttribute("width", "340")
+        logo.setAttribute("height", "340")
+        address.textContent = company.address;
+        phone.textContent = company.phone;
+        site.setAttribute("href", company.url);
 
-        portrait.setAttribute("src", prophet.imageurl);
-        portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`)
-        portrait.setAttribute("loading", "lazy");
-        portrait.setAttribute("width", "340");
-        portrait.setAttribute("height", "440");
 
-        card.appendChild(fullName)
-        card.appendChild(portrait);
+        card.appendChild(logo)
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(site);
 
         cards.appendChild(card);
     });

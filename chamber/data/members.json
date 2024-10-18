@@ -6,7 +6,7 @@
             "address": "35324 MacGyver Village, LA 54468",
             "phone": "(002) 334-5432",
             "url": "https://www.nutella.com/int/en/",
-            "icon": "../images/icons/nutella.png",
+            "icon": "images/icons/nutella.png",
             "membership": "Silver"
         },
         "2": {
@@ -14,7 +14,7 @@
             "address": "790 Purdy Harbor, Lake Irmgardfort",
             "phone": "(992) 284-0435",
             "url": "https://www.twitch.tv/",
-            "icon": "../images/icons/twitch.png",
+            "icon": "images/icons/twitch.png",
             "membership": "Bronze"
         },
         "3": {
@@ -22,7 +22,7 @@
             "address": "Suite 448 2316 Jerry Shore, Nealburgh",
             "phone": "(012) 534-6472",
             "url": "https://www.adidas.com/us",
-            "icon": "../images/icons/adidas.png",
+            "icon": "images/icons/adidas.png",
             "membership": "Gold"
         },
         "4": {
@@ -30,7 +30,7 @@
             "address": "92420 Calvin Divide, Jeannefort",
             "phone": "(302) 135-3272",
             "url": "https://us.puma.com/us/en?srsltid=AfmBOore_swuE6_kAQg35jyQWvTm_8sHUa7aYqrOMQfU7ljrTRPVm728",
-            "icon": "../images/icons/puma.png",
+            "icon": "images/icons/puma.png",
             "membership": "Silver"
         },
         "5": {
@@ -38,7 +38,7 @@
             "address": "Suite 868 885 Pfannerstill Summit, Tonyland",
             "phone": "(212) 384-5411",
             "url": "https://www.vw.com/en.html",
-            "icon": "../images/icons/volkswagen.png",
+            "icon": "images/icons/volkswagen.png",
             "membership": "Gold"
         },
         "6": {
@@ -46,7 +46,7 @@
             "address": "6507 Rolando Extension, West Novaton",
             "phone": "(016) 184-5231",
             "url": "https://www.dell.com/en-us",
-            "icon": "../images/icons/dell.png",
+            "icon": "images/icons/dell.png",
             "membership": "Silver"
         },
         "7": {
@@ -54,7 +54,7 @@
             "address": "211 Beer Cape, Kingburgh",
             "phone": "(112) 034-5022",
             "url": "https://www.citroen-eg.com/en/",
-            "icon": "../images/icons/citroen.png",
+            "icon": "images/icons/citroen.png",
             "membership": "Gold"
         }
     }
