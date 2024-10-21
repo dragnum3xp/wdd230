@@ -62,6 +62,35 @@
         border-radius: 10px;
     }
 
+    .weather {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .weather h3 {
+        font-size: x-large;
+    }
+
+    .weather figure {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .forecast-day {
+        background-color: #8ced65; 
+        border: 1px solid #ccc; 
+        border-radius: 8px; 
+        padding: 15px; 
+        margin: 10px 0; 
+        width: 80%; 
+        text-align: center; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    .forecast-day p {
+        font-size: larger;
+    }
+
     .card {
         display: flex; 
         background-color: #63A549;

@@ -36,7 +36,7 @@
         </ul>
     </nav>
     <main>
-        <a class= join href="#"><h3>Join</h3></a>
+        <a class= join href="join.html"><h3>Join</h3></a>
         <div class="card">
             <img src="images/Dunas-Aquiraz-Ceara-Credito-editorial-Cacio-Murilo-shutterstock_1664631808-300x200.jpg" alt="placeholder image">
             <div class="card-content">
@@ -44,9 +44,48 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aut, architecto ea ullam aliquid minus nobis necessitatibus dolores corporis pariatur nam cum iure voluptate quis quia accusantium sapiente doloremque aperiam?</p>
             </div>
         </div>
-        <div class="card">
-            <h3>Weather Information</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi ex atque, facilis qui saepe iusto, molestias ea veritatis laborum autem pariatur nulla sunt eligendi excepturi. Quibusdam nam nulla sequi soluta.</p>
+        <section class="weather">
+            <h3>Current Weather</h3>
+            <p>Temperature: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="weather-desc"></figcaption>
+            </figure>
+        </section>
+
+        <section class="forecast">
+            <h3>3-Day Weather Forecast</h3>
+
+            <!-- Day 1 -->
+            <div class="forecast-day">
+                
+                <p>Temperature: <span class="forecast-temp"></span></p>
+                <figure>
+                    <img class="forecast-icon" src="" alt="">
+                    <figcaption class="forecast-desc"></figcaption>
+                </figure>
+            </div>
+
+            <!-- Day 2 -->
+            <div class="forecast-day">
+                
+                <p>Temperature: <span class="forecast-temp"></span></p>
+                <figure>
+                    <img class="forecast-icon" src="" alt="">
+                    <figcaption class="forecast-desc"></figcaption>
+                </figure>
+            </div>
+
+            <!-- Day 3 -->
+            <div class="forecast-day">
+                
+                <p>Temperature: <span class="forecast-temp"></span></p>
+                <figure>
+                    <img class="forecast-icon" src="" alt="">
+                    <figcaption class="forecast-desc"></figcaption>
+                </figure>
+            </div>
+        </section>
         </div>
         <div class="container">
             <div class="ad-content">
@@ -79,5 +118,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/ham.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
