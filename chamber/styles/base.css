@@ -130,6 +130,12 @@ nav ul li a:hover {
     margin-right: 30%;
 }
 
+.join h3 {
+    align-self: center;
+    margin: 0 auto;
+    padding: 8px;
+}
+
 main {
     padding: 1rem;
 }
