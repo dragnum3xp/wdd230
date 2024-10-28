@@ -18,5 +18,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
     
     document.getElementById('timestamp').value = formattedTimestamp;
 
-    console.log('Timestamp:', document.getElementById('timestamp').value);
+    //console.log('Timestamp:', document.getElementById('timestamp').value);
 });
