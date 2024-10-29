@@ -91,31 +91,7 @@
         font-size: larger;
     }
 
-    .card {
-        display: flex; 
-        background-color: #63A549;
-        margin: 1rem;
-        padding: 15px;
-        border-radius: 10px;
-        align-items: center; 
-    }
     
-    .card img {
-        width: 40%; 
-        border-radius: 10px; 
-        margin-right: 1rem; 
-    }
-    
-    .card h3,
-    .card p {
-        margin: 0; 
-        text-align: start;
-    }
-    
-    .card-content {
-        width: 60%; 
-        padding: 0; 
-    }
 
     /* For the discovery page*/
 
@@ -221,6 +197,15 @@
 
 
 
+.forecast {
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.forecast-day {
+    width: 100%; 
+    max-width: 300px; 
+}
 
 
 
